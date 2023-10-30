@@ -13,12 +13,12 @@ from bot import bot
 from bot import DEVS
 from bot import bot_id
 
-OWNER_ID = int("6264438859")
+OWNER_ID = int("5451878368")
 
 
 r = redis.Redis(
-    host="127.0.0.1",
-    port=6379,)
+    host="0.0.0.0",
+    port=8080,)
     
 
 
