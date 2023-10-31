@@ -16,7 +16,7 @@ from bot import bot_id
 OWNER_ID = int("5451878368")
 
 
-r = redis.from_url("http://redis-12816.c277.us-east-1-3.ec2.cloud.redislabs.com:12816")
+r = redis.from_url("redis://redis-12816.c277.us-east-1-3.ec2.cloud.redislabs.com:12816")
     
 
 
