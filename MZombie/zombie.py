@@ -116,9 +116,9 @@ async def makedzombie(client, message):
     await bot.start()
     username = await bot.get_me()
     username = username.username
-    await bot.stop()
+    #await bot.stop()
     await user.start()
-    await user.stop()
+    #await user.stop()
   except:
     return await message.reply_text("تاكد من التوكن أو الجلسة")
   id = message.from_user.username
