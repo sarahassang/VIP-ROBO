@@ -119,7 +119,8 @@ async def makedzombie(client, message):
     #await bot.stop()
     await user.start()
     #await user.stop()
-  except:
+  except Exception as e:
+    print(e)
     return await message.reply_text("تاكد من التوكن أو الجلسة")
   id = message.from_user.username
   for x in Bots:
