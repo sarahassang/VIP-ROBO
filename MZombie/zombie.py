@@ -112,16 +112,16 @@ async def makedzombie(client, message):
       return await message.reply_text("قم بارسال الايدي بشكل صحيح")#'‹ ٰ💸 ⇣ سورس الفراعنة ⇣ 💸 › .'#
   bot = Client(":memory:", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN, in_memory=True, plugins=dict(root="source"))
   user = Client(":ahmed:", api_id=API_ID, api_hash=API_HASH, session_string=str(SESSION))
-  try:
-    await bot.start()
-    username = await bot.get_me()
-    username = username.username
+  #try:
+  await bot.start()
+  username = await bot.get_me()
+  username = username.username
     #await bot.stop()
-    await user.start()
+  await user.start()
     #await user.stop()
-  except Exception as e:
-    print(e)
-    return await message.reply_text("تاكد من التوكن أو الجلسة")
+  #except Exception as e:
+    #print(e)
+    #return await message.reply_text("تاكد من التوكن أو الجلسة")
   id = message.from_user.username
   for x in Bots:
         if x[0] == id:
