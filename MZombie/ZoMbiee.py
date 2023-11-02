@@ -16,7 +16,11 @@ from bot import bot_id
 OWNER_ID = int("5451878368")
 
 
-r = redis.from_url("redis://redis-10142.c263.us-east-1-2.ec2.cloud.redislabs.com:10142")
+#r = redis.from_url("redis://redis-10142.c263.us-east-1-2.ec2.cloud.redislabs.com:10142")
+r = redis.Redis(
+  host='redis-13524.c84.us-east-1-2.ec2.cloud.redislabs.com',
+  port=13524,
+  password='J2tSRdAbiuSaFU3ROH2UqWWTahWR00b9')
     
 
 
