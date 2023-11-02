@@ -5,11 +5,11 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyb
 import random
 from bot import DEVS
 
-API_ID = int("8186557")
-API_HASH = "efd77b34c69c164ce158037ff5a0d117"
+API_ID = int("21627756")
+API_HASH = "fe77fbf0cae9f7f5ece37659e2466cf1"
 Bots = []
 off =None
-ch = "BENfiles"
+ch = "UI_XB"
 @Client.on_message(filters.private)
 async def me(client, message):
    if off:
@@ -27,8 +27,8 @@ async def aliehi(client: Client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("اضغط لاستخراج الجلسه", url=f"https://t.me/BEN_SISSIONS_bot"),
-                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/BENfiles"),
+                InlineKeyboardButton("اضغط لاستخراج الجلسه", url=f"https://t.me/UI_XB"),
+                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/UI_XB"),
             ],
         ]
     )
@@ -44,8 +44,8 @@ async def alivehi(client: Client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿️", url=f"https://t.me/BENNsupport"),
-                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/BENfiles"),
+                InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿️", url=f"https://t.me/UI_OS"),
+                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/UI_XB"),
             ],
         ]
     )
@@ -61,8 +61,8 @@ async def caesar(client: Client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("ᯓ 𓆩 ˹𝙱𝙴𝙽˼ 𓆪 #1", url=f"https://t.me/BENN_DEV"),
-                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/BENfiles"),
+                InlineKeyboardButton("MODY", url=f"https://t.me/UP_UO"),
+                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.meUI_XB"),
             ],
         ]
     )
@@ -134,7 +134,7 @@ async def makedzombie(client, message):
   os.system(f"cd users/{id} && screen -d -m -S {id} python3 -m AnonXMusic")
   oo = [id, Dev]
   Bots.append(oo)
-  await message.reply_text("تم تنصيب بوتك بنجاح\n《قناه السورس》»  @BENfiles ❤❤️‍🔥")
+  await message.reply_text("تم تنصيب بوتك بنجاح\n《قناه السورس》»  @UI_XB ❤❤️‍🔥")
 
 @Client.on_message(filters.command("《حذف بوت》", "") & filters.private)
 async def deletbotzombie(client, message):
