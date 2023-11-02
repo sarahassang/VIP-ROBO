@@ -110,9 +110,7 @@ async def makedzombie(client, message):
       Dev = int(ask.text)
     except:
       return await message.reply_text("قم بارسال الايدي بشكل صحيح")#'‹ ٰ💸 ⇣ سورس الفراعنة ⇣ 💸 › .'#
-  plugins = dict("/source/AnonXMusic")
-  print (plugins)
-  bot = Client(":memory:", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN, in_memory=True, plugins=plugins)
+  bot = Client(":memory:", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN, in_memory=True, plugins=dict(root="source/AnonXMusic"))
   user = Client(":ahmed:", api_id=API_ID, api_hash=API_HASH, session_string=str(SESSION))
   try:
     await bot.start()
