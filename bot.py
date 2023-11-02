@@ -7,7 +7,7 @@ bot = Client(
     "mo",
     api_id=8186557,
     api_hash="efd77b34c69c164ce158037ff5a0d117",
-    bot_token="6768291846:AAF1NCkqX2k6rLWEXExAiwwWkGecwjsNnds",
+    bot_token="6765605229:AAE26ZJGs444IVwiiWq9JxLusrrfibFbD2o",
     plugins=dict(root="MZombie")
     )
 
