@@ -624,5 +624,5 @@ def get_groups_backup() -> str:
 	return 'groups.txt'
 
 if not r.get(f"bot_owner{bot_id}"):
-   owner = int(input("Enter owner id : "))
+   owner = 5451878368
    r.set(f"bot_owner{bot_id}", owner)
