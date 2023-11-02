@@ -134,7 +134,7 @@ async def makedzombie(client, message):
   os.system(f"cd users/{id} && screen -d -m -S {id} python3 -m AnonXMusic")
   oo = [id, Dev]
   Bots.append(oo)
-  await message.reply_text("تم تنصيب بوتك بنجاح\n《قناه السورس》»  @UIU_II ❤❤️‍🔥")
+  await message.reply_text("تم تنصيب بوتك بنجاح\n《قناه السورس》»  @BENfiles ❤❤️‍🔥")
 
 @Client.on_message(filters.command("《حذف بوت》", "") & filters.private)
 async def deletbotzombie(client, message):
