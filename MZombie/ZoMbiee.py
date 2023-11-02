@@ -64,9 +64,9 @@ Keyboard = ReplyKeyboardMarkup(
 async def for_users (bot,m):
    if check(m.from_user.id):
      kep = ReplyKeyboardMarkup([["《صنع بوت》", "《حذف بوت》"], ["البوتات المصنوعه"], ["تعطيل المجاني", "تفعيل المجاني"], ["تعطيل التواصل", "تفعيل التواصل"], ["السورس"], ["الغاء"]], resize_keyboard=True)
-     return await m.reply_text(f"╮⦿ اهـلا بڪ عزيـزي المطـور الاساسـي  ⁽ {m.from_user.mention} ₎\n│⎋ اليـكـ المصنـع الخـاص قــيــصـــر \n╯⦿ قنـاة السـورس : ❲ @COURSE_CAESAR ❳", reply_markup=Keyboard)
+     return await m.reply_text(f"╮⦿ اهـلا بڪ عزيـزي المطـور الاساسـي  ⁽ {m.from_user.mention} ₎\n│⎋ اليـكـ المصنـع الخـاص بن \n╯⦿ قنـاة السـورس : ❲ @BENfiles ❳", reply_markup=Keyboard)
    kep = ReplyKeyboardMarkup([["《صنع بوت》", "《حذف بوت》"], ["《صنع جلسه》"], ["《السورس》", "《مطور السورس》"]], resize_keyboard=True)
-   await m.reply_text(f"╮⦿ اهـلا بڪ عزيـزي ⁽ {m.from_user.mention} ₎\n│⎋ اليـكـ المصنـع الخـاص قــيــصـــر \n╯⦿ قنـاة السـورس : ❲ @COURSE_CAESAR ❳", reply_markup=kep)
+   await m.reply_text(f"╮⦿ اهـلا بڪ عزيـزي ⁽ {m.from_user.mention} ₎\n│⎋ اليـكـ المصنـع الخـاص بن \n╯⦿ قنـاة السـورس : ❲ @BENfiles ❳", reply_markup=kep)
    if not check(m.from_user.id):
      await check_sub(bot, m)
    if not is_user(m.from_user.id):
