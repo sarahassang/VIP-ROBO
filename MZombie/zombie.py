@@ -27,14 +27,14 @@ async def aliehi(client: Client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("اضغط لاستخراج الجلسه", url=f"https://t.me/sezar_session_bot"),
-                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/UIU_II"),
+                InlineKeyboardButton("اضغط لاستخراج الجلسه", url=f"https://t.me/BEN_SISSIONS_bot"),
+                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/BENfiles"),
             ],
         ]
     )
 
     await message.reply_photo(
-        photo="https://telegra.ph/file/2514530559cc173845e3f.jpg",
+        photo="https://telegra.ph/file/c37de0fdccdad7e391714.jpg",
         caption="",
         reply_markup=keyboard,
     )
@@ -44,14 +44,14 @@ async def alivehi(client: Client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿️", url=f"https://t.me/sorescaser"),
-                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/UIU_II"),
+                InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿️", url=f"https://t.me/BENNsupport"),
+                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/BENfiles"),
             ],
         ]
     )
 
     await message.reply_photo(
-        photo="https://telegra.ph/file/2514530559cc173845e3f.jpg",
+        photo="https://telegra.ph/file/c37de0fdccdad7e391714.jpg",
         caption="",
         reply_markup=keyboard,
     )
@@ -61,14 +61,14 @@ async def caesar(client: Client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("《 ⎖᳒𝘿𝙀𝙑⌯⤹𝗭𝗢𝗠𝗕𝗜𝗘⤸‹༄►》", url=f"https://t.me/Zo_Mbi_e"),
-                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/UIU_II"),
+                InlineKeyboardButton("ᯓ 𓆩 ˹𝙱𝙴𝙽˼ 𓆪 #1", url=f"https://t.me/BENN_DEV"),
+                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/BENfiles"),
             ],
         ]
     )
 
     await message.reply_photo(
-        photo="https://telegra.ph/file/2514530559cc173845e3f.jpg",
+        photo="https://telegra.ph/file/c6fcc8d4d4a02dfc62983.jpg",
         caption="",
         reply_markup=keyboard,
     )    
@@ -112,16 +112,16 @@ async def makedzombie(client, message):
       return await message.reply_text("قم بارسال الايدي بشكل صحيح")#'‹ ٰ💸 ⇣ سورس الفراعنة ⇣ 💸 › .'#
   bot = Client(":memory:", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN, in_memory=True, plugins=dict(root="source"))
   user = Client(":ahmed:", api_id=API_ID, api_hash=API_HASH, session_string=str(SESSION))
-  #try:
-  await bot.start()
-  username = await bot.get_me()
-  username = username.username
+  try:
+    await bot.start()
+    username = await bot.get_me()
+    username = username.username
     #await bot.stop()
-  await user.start()
+    await user.start()
     #await user.stop()
-  #except Exception as e:
-    #print(e)
-    #return await message.reply_text("تاكد من التوكن أو الجلسة")
+  except Exception as e:
+    print(e)
+    return await message.reply_text("تاكد من التوكن أو الجلسة")
   id = message.from_user.username
   for x in Bots:
         if x[0] == id:
