@@ -45,7 +45,7 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "6509622797",
+        "value": "6218149232",
         "required": true
       },
       "STRING_SESSION": {
@@ -55,7 +55,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "a01a8cce-d72b-461c-86ec-de9a7259fecc",
+        "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
@@ -65,7 +65,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1001967964536",
+        "value": "-1001936852140",
         "required": true
       },
       "UPSTREAM_REPO": {
