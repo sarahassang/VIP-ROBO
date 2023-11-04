@@ -9,7 +9,7 @@ API_ID = int("21627756")
 API_HASH = "fe77fbf0cae9f7f5ece37659e2466cf1"
 Bots = []
 off =None
-ch = "UI_XB"
+ch = "Mlze1bot"
 @Client.on_message(filters.private)
 async def me(client, message):
    if off:
