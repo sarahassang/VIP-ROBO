@@ -614,15 +614,3 @@ def get_groups():
      return list
    except:
      return []
-
-def get_groups_backup() -> str:
-	text = ''
-	for group in r.smembers(f"botgroups{bot_id}"):
-		text += group.decode('utf-8')+'\n'
-	with open('groups.txt', 'w+') as f:
-		f.write(text)
-	return 'groups.txt'
-
-if not r.get(f"bot_owner{bot_id}"):
-   owner = 6529164385
-   r.set(f"bot_owner{bot_id}", owner)
