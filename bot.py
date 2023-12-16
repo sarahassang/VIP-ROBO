@@ -15,7 +15,7 @@ DEVS = ["lllliioooll"]
 
 bot_id = bot.bot_token.split(":")[0]
 
-async def start_llivcbot():
+async def start_bot():
     print("تم تشغيل الصانع بنجاح..💗")
     await bot.start()
     for hh in DEVS:
